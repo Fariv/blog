@@ -1,0 +1,23 @@
+#profileName {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    left: 0;
+}
+.profile-image {
+    border: 1px solid;
+}
+
+.create-time-log {
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    background-color: #daecff;
+}
+
+.edit-profile {
+    width: 1.3rem;
+}
+
+.placeholder {
+    display: inline-block;
+}
