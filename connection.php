@@ -20,5 +20,5 @@ try {
     $pdo = new \PDO($connectionString);
     $pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
 } catch ( PDOException $e ) {
-    echo "Connection failed: " -> $e->getMessage();
+    var_dump($e);
 }
