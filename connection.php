@@ -15,7 +15,7 @@ $connectionString = sprintf(
     getenv('USER'), 
     getenv('PASSWORD')
 );
-
+var_dump(getenv('HOST'));
 try {
     $pdo = new \PDO($connectionString);
     $pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
